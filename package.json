@@ -13,8 +13,8 @@
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^22.13.5",
-    "@typescript-eslint/eslint-plugin": "8.25.0",
-    "@typescript-eslint/parser": "8.25.0",
+    "@typescript-eslint/eslint-plugin": "^7.9.0",
+    "@typescript-eslint/parser": "^7.9.0",
     "builtin-modules": "5.0.0",
     "esbuild": "0.25.0",
     "obsidian": "latest",
@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "@bpmn-io/properties-panel": "^3.26.3",
-    "bpmn-js": "^18.3.1",
+    "bpmn-js": "^18.6.4",
     "bpmn-js-color-picker": "^0.7.1",
     "bpmn-js-properties-panel": "^5.32.1",
     "bpmn-js-sketchy": "^0.7.2",
