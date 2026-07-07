@@ -6,6 +6,12 @@ All changes to this plugin are listed here.
 
 ### Fixed
 
+- Popup menus (create/append/replace element, also via the `n`/`a`/`r` shortcuts) now open at the right place — anchored to the element being appended to, or at the mouse cursor when creating — instead of at the top-left corner of the view. The popup no longer jumps around while opening and always stays inside the diagram view, even when triggered near its edge
+
+## 7.4.0 (2026-06-12)
+
+### Fixed
+
 - Keyboard shortcuts (e.g. `e` edit, `r` replace) now work inside Obsidian: the diagram canvas is focused when the mouse enters it, so bpmn-js receives key events
 
 ### New
@@ -14,7 +20,14 @@ All changes to this plugin are listed here.
 
 ### Updated
 
-- Bump bpmn-js-token-simulation to 0.39.3 (fixes build with ids v3)
+- Bump bpmn-js-token-simulation to 0.39.3: 0.38.x imports the removed default export of ids v3, which breaks the esbuild bundling on a fresh install
+- Bump bpmn-js to 18.18.0
+
+## 7.3.3 (2025-10-06)
+
+### Updated
+
+- Bump bpmn-js to 18.7.0
 
 ## 7.3.2 (2025-02-27)
 
