@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">BPMN Mobile</string>
+    <string name="title_activity_main">BPMN Mobile</string>
+    <string name="package_name">io.github.kimchaily.bpmnmobile</string>
+    <string name="custom_url_scheme">io.github.kimchaily.bpmnmobile</string>
+</resources>
