@@ -7,14 +7,10 @@ dist/
 !src/main.js
 !package-lock.json
 
-# Capacitor / Android build outputs
-android/app/build/
-android/build/
-android/.gradle/
-android/local.properties
-android/app/src/main/assets/public/
-android/app/release/
+# The native Android project is generated from capacitor.config.json by
+# `npx cap add android` (run locally or in CI), so it is not tracked here.
+android/
+
 *.apk
 *.aab
 *.keystore
-!debug.keystore
