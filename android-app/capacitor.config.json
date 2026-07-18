@@ -1,8 +1,0 @@
-{
-  "appId": "io.github.kimchaily.bpmnmobile",
-  "appName": "BPMN Mobile",
-  "webDir": "dist",
-  "server": {
-    "androidScheme": "https"
-  }
-}
