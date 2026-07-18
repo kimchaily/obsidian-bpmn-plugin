@@ -1,6 +1,12 @@
 node_modules/
 dist/
 
+# The repository-root .gitignore ignores `main.js` and `package-lock.json`
+# (Obsidian plugin build output / lockfile). This is a standalone app, so
+# re-include its real source entry point and lockfile.
+!src/main.js
+!package-lock.json
+
 # Capacitor / Android build outputs
 android/app/build/
 android/build/
